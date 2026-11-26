@@ -42,10 +42,11 @@ jobs:
       actions: write
     steps:
       - name: マージ
-        run: gh pr merge --squash --delete-branch "$PR_URL"
+        run: gh pr merge --squash --delete-branch --match-head-commit "$HEAD_SHA" "$PR_URL"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_URL: ${{ github.event.pull_request.html_url }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
       - name: デプロイを起動
         run: gh workflow run deploy.yml --repo "$REPO" --ref main
         env:

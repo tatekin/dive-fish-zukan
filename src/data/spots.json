@@ -6,11 +6,38 @@
     "region": "東海",
     "area": "西伊豆",
     "points": [
-      { "id": "wannai", "name": "湾内" },
-      { "id": "sentan", "name": "先端" },
-      { "id": "sakushita", "name": "柵下" },
-      { "id": "monshita", "name": "門下" },
-      { "id": "ipponmatsu", "name": "一本松" }
+      {
+        "id": "wannai",
+        "name": "湾内"
+      },
+      {
+        "id": "sentan",
+        "name": "先端"
+      },
+      {
+        "id": "sakushita",
+        "name": "柵下"
+      },
+      {
+        "id": "ookawashita",
+        "name": "大川下"
+      },
+      {
+        "id": "ipponmatsu",
+        "name": "一本松"
+      },
+      {
+        "id": "monshita",
+        "name": "門下"
+      },
+      {
+        "id": "tamazaki",
+        "name": "タマザキ"
+      },
+      {
+        "id": "sotoumi",
+        "name": "外海（ポイント不明）"
+      }
     ]
   }
 ]

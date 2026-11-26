@@ -2,9 +2,9 @@
 import Base from '../layouts/Base.astro';
 import SpotView from '../components/SpotView.astro';
 import SourceList from '../components/SourceList.astro';
-import { spots, fish, sightings, url, MONTHS, singleSpot, SITE_NAME } from '../lib/data';
+import { spots, fish, sightings, url, MONTHS, singleSpot, SITE_NAME, currentMonth } from '../lib/data';
 const recent = sightings.slice(0, 10);
-const now = new Date().getMonth() + 1;
+const now = currentMonth;
 ---
 <Base>
   {singleSpot ? (

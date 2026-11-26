@@ -12,9 +12,13 @@ export const fish: Fish[] = fishJson;
 export const sightings: Sighting[] = [...(sightingsJson as Sighting[])].sort((a, b) => b.date.localeCompare(a.date));
 
 export const MONTHS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] as const;
+export const REPO_URL = 'https://github.com/tatekin/dive-fish-zukan';
 export const REGIONS = ['北海道', '東北', '関東', '伊豆諸島・小笠原', '北陸', '東海', '近畿', '中国', '四国', '九州', '沖縄'];
 
 export const monthOf = (s: Sighting) => Number(s.date.slice(5, 7));
+
+/** ビルド時点の日本時間の月（1〜12）。GitHub Actions は UTC で動くため明示的に JST に寄せる */
+export const currentMonth = Number(new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(5, 7));
 export const spotById = new Map(spots.map((s) => [s.id, s]));
 export const fishById = new Map(fish.map((f) => [f.id, f]));
 

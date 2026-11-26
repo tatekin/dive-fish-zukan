@@ -1,5 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
+import { REPO_URL, sightings, hostOf } from '../lib/data';
+
+const sources = [...new Map(sightings.map((s) => [s.sourceName ?? hostOf(s.sourceUrl), new URL(s.sourceUrl).origin])).entries()]
+  .map(([name, origin]) => ({ name, origin, count: sightings.filter((s) => (s.sourceName ?? hostOf(s.sourceUrl)) === name).length }))
+  .sort((a, b) => b.count - a.count);
 ---
 <Base title="出典について">
   <h1>出典と掲載方針</h1>
@@ -17,5 +22,16 @@ import Base from '../layouts/Base.astro';
     <li>写真・動画</li>
   </ul>
   <p>写真や詳しい様子は、各記録の出典リンクから元のページでご覧ください。</p>
-  <p>掲載内容について削除・修正のご希望がある場合は、リポジトリのIssueでお知らせください。</p>
+  <h2>出典にしているショップ</h2>
+  <ul>
+    {sources.map((s) => <li><a href={s.origin} target="_blank" rel="noopener noreferrer">{s.name}</a>（{s.count} 件）</li>)}
+  </ul>
+  <p>掲載内容について削除・修正のご希望がある場合は、<a href={`${REPO_URL}/issues`}>GitHub の Issue</a> でお知らせください。すぐに対応します。</p>
+  <h2>記録のしかた</h2>
+  <ul>
+    <li>1つのログに複数の魚が出ていれば、魚ごとに1件として数えています。</li>
+    <li>魚の名前は標準和名にそろえています（「白いクマドリカエルアンコウ」→ クマドリカエルアンコウ など）。</li>
+    <li>ログの中で「？」「たぶん」など同定があいまいなものは記録していません。</li>
+    <li>ヒートマップは記録の件数で、その月にいなかったことを意味するものではありません。</li>
+  </ul>
 </Base>

@@ -10,6 +10,18 @@ export const SIGHTING_KEYS = ['fish', 'spot', 'point', 'date', 'sourceUrl', 'sou
 const ID_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
+/** YYYY-MM-DD として実在する日付か（2026-02-30 などを弾く） */
+export function isValidDate(s) {
+  if (!DATE_RE.test(s)) return false;
+  const d = new Date(`${s}T00:00:00Z`);
+  return !Number.isNaN(d.getTime()) && d.toISOString().slice(0, 10) === s;
+}
+
+/** 日本時間の今日（YYYY-MM-DD） */
+export function todayJst(now = new Date()) {
+  return new Date(now.getTime() + 9 * 3600 * 1000).toISOString().slice(0, 10);
+}
+
 function checkKeys(obj, allowed, required, where, errors) {
   for (const k of Object.keys(obj)) {
     if (!allowed.includes(k)) errors.push(`${where}: 許可されていないフィールド "${k}"（文章・写真などは保存しない方針です）`);
@@ -19,7 +31,7 @@ function checkKeys(obj, allowed, required, where, errors) {
   }
 }
 
-export function validate({ spots, fish, sightings }) {
+export function validate({ spots, fish, sightings }, { today = todayJst() } = {}) {
   const errors = [];
   const spotIds = new Set();
   /** @type {Map<string, Set<string>>} */
@@ -61,7 +73,8 @@ export function validate({ spots, fish, sightings }) {
     if (r.point !== undefined && spotIds.has(r.spot) && !pointsBySpot.get(r.spot)?.has(r.point)) {
       errors.push(`${where}: スポット "${r.spot}" に未登録のポイント "${r.point}"`);
     }
-    if (r.date && (!DATE_RE.test(r.date) || Number.isNaN(Date.parse(r.date)))) errors.push(`${where}: 日付は YYYY-MM-DD 形式`);
+    if (r.date && !isValidDate(r.date)) errors.push(`${where}: 日付は実在する YYYY-MM-DD 形式で書く（"${r.date}"）`);
+    else if (r.date && r.date > today) errors.push(`${where}: 未来の日付 "${r.date}" は記録できません`);
     if (r.sourceUrl) {
       try {
         const u = new URL(r.sourceUrl);
