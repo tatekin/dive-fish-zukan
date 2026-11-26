@@ -2,7 +2,7 @@
 import MonthHeat from './MonthHeat.astro';
 import MonthHeader from './MonthHeader.astro';
 import SourceList from './SourceList.astro';
-import { sightings, fishById, groupBy, monthCounts, placeName, url, type Spot } from '../lib/data';
+import { sightings, fishById, groupBy, monthCounts, placeName, url, currentMonth, type Spot } from '../lib/data';
 
 interface Props { spot: Spot }
 const { spot } = Astro.props;
@@ -16,7 +16,8 @@ const rows = [...groupBy(list, (s) => s.fish).entries()]
   }))
   .sort((a, b) => b.total - a.total || a.fish.name.localeCompare(b.fish.name, 'ja'));
 const max = Math.max(1, ...rows.flatMap((r) => r.counts));
-const thisMonth = new Date().getMonth() + 1;
+const showPoints = rows.some((r) => r.points.length > 0);
+const thisMonth = currentMonth;
 const nowRows = rows.filter((r) => (r.counts[thisMonth - 1] ?? 0) > 0);
 ---
 <p class="muted">{spot.region} / {spot.prefecture}{spot.area ? ` / ${spot.area}` : ''}</p>
@@ -28,14 +29,14 @@ const nowRows = rows.filter((r) => (r.counts[thisMonth - 1] ?? 0) > 0);
 {rows.length === 0 ? <p>まだ記録がありません。</p> : (
   <div class="table-wrap">
     <table>
-      <thead><tr><th>魚</th><th><MonthHeader /></th><th>件数</th>{spot.points?.length ? <th>ポイント</th> : null}</tr></thead>
+      <thead><tr><th>魚</th><th><MonthHeader /></th><th>件数</th>{showPoints && <th>ポイント</th>}</tr></thead>
       <tbody>
         {rows.map((r) => (
           <tr>
             <td><a href={url(`fish/${r.fish.id}/`)}>{r.fish.name}</a></td>
             <td><MonthHeat counts={r.counts} max={max} /></td>
             <td>{r.total}</td>
-            {spot.points?.length ? <td class="muted">{r.points.join('、')}</td> : null}
+            {showPoints && <td class="muted">{r.points.join('、')}</td>}
           </tr>
         ))}
       </tbody>

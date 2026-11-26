@@ -19,7 +19,7 @@ const { list, show = 'both' } = Astro.props;
         <tr>
           <td>{s.date}</td>
           {show !== 'spot' && <td><a href={url(`fish/${s.fish}/`)}>{fishById.get(s.fish)?.name}</a></td>}
-          <td>{show === 'fish' ? placeName(s, false) : <a href={url(`spots/${s.spot}/`)}>{placeName(s)}</a>}</td>
+          <td>{show === 'fish' ? (placeName(s, false) || '—') : <a href={url(`spots/${s.spot}/`)}>{placeName(s)}</a>}</td>
           <td><a href={s.sourceUrl} target="_blank" rel="noopener noreferrer nofollow">{s.sourceName ?? hostOf(s.sourceUrl)}</a></td>
         </tr>
       ))}

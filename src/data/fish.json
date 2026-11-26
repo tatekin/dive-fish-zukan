@@ -1,8 +1,122 @@
 [
-  { "id": "kumanomi", "name": "クマノミ", "scientificName": "Amphiprion clarkii", "family": "スズメダイ科" },
-  { "id": "hanatatsu", "name": "ハナタツ", "scientificName": "Hippocampus sindonis", "family": "ヨウジウオ科" },
-  { "id": "mijinbenihaze", "name": "ミジンベニハゼ", "scientificName": "Lubricogobius exiguus", "family": "ハゼ科" },
-  { "id": "dangouo", "name": "ダンゴウオ", "scientificName": "Lethotremus awae", "family": "ダンゴウオ科" },
-  { "id": "nejirinbou", "name": "ネジリンボウ", "scientificName": "Stonogobiops xanthorhinica", "family": "ハゼ科" },
-  { "id": "irokaeruankou", "name": "イロカエルアンコウ", "family": "カエルアンコウ科" }
+  {
+    "id": "oomonkaeruankou",
+    "name": "オオモンカエルアンコウ",
+    "scientificName": "Antennarius commerson",
+    "family": "カエルアンコウ科"
+  },
+  {
+    "id": "kumadorikaeruankou",
+    "name": "クマドリカエルアンコウ",
+    "scientificName": "Antennarius maculatus",
+    "family": "カエルアンコウ科"
+  },
+  {
+    "id": "irokaeruankou",
+    "name": "イロカエルアンコウ",
+    "family": "カエルアンコウ科"
+  },
+  {
+    "id": "benikaeruankou",
+    "name": "ベニカエルアンコウ",
+    "family": "カエルアンコウ科"
+  },
+  {
+    "id": "nishikifuuraiuo",
+    "name": "ニシキフウライウオ",
+    "scientificName": "Solenostomus paradoxus",
+    "family": "カミソリウオ科"
+  },
+  {
+    "id": "hosofuuraiuo",
+    "name": "ホソフウライウオ",
+    "family": "カミソリウオ科"
+  },
+  {
+    "id": "tengunootoshigo",
+    "name": "テングノオトシゴ",
+    "scientificName": "Eurypegasus draconis",
+    "family": "ウミテング科"
+  },
+  {
+    "id": "nejirinbou",
+    "name": "ネジリンボウ",
+    "scientificName": "Stonogobiops xanthorhinica",
+    "family": "ハゼ科"
+  },
+  {
+    "id": "hanahaze",
+    "name": "ハナハゼ",
+    "scientificName": "Ptereleotris hanae",
+    "family": "クロユリハゼ科"
+  },
+  {
+    "id": "kuroyurihaze",
+    "name": "クロユリハゼ",
+    "scientificName": "Ptereleotris evides",
+    "family": "クロユリハゼ科"
+  },
+  {
+    "id": "hakofugu",
+    "name": "ハコフグ",
+    "scientificName": "Ostracion immaculatum",
+    "family": "ハコフグ科"
+  },
+  {
+    "id": "houbou",
+    "name": "ホウボウ",
+    "scientificName": "Chelidonichthys spinosus",
+    "family": "ホウボウ科"
+  },
+  {
+    "id": "buri",
+    "name": "ブリ",
+    "scientificName": "Seriola quinqueradiata",
+    "family": "アジ科"
+  },
+  {
+    "id": "gomasaba",
+    "name": "ゴマサバ",
+    "scientificName": "Scomber australasicus",
+    "family": "サバ科"
+  },
+  {
+    "id": "umeiromodoki",
+    "name": "ウメイロモドキ",
+    "scientificName": "Caesio diagramma",
+    "family": "タカサゴ科"
+  },
+  {
+    "id": "shibireei",
+    "name": "シビレエイ",
+    "scientificName": "Narke japonica",
+    "family": "シビレエイ科"
+  },
+  {
+    "id": "hirataei",
+    "name": "ヒラタエイ",
+    "family": "ヒラタエイ科"
+  },
+  {
+    "id": "sakatazame",
+    "name": "サカタザメ",
+    "family": "サカタザメ科"
+  },
+  {
+    "id": "kasuzame",
+    "name": "カスザメ",
+    "scientificName": "Squatina japonica",
+    "family": "カスザメ科"
+  },
+  {
+    "id": "hirame",
+    "name": "ヒラメ",
+    "scientificName": "Paralichthys olivaceus",
+    "family": "ヒラメ科"
+  },
+  {
+    "id": "mongaradooshi",
+    "name": "モンガラドオシ",
+    "family": "ウミヘビ科"
+  }
 ]

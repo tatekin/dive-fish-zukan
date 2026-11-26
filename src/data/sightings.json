@@ -1,98 +1,215 @@
 [
   {
-    "fish": "dangouo",
+    "fish": "umeiromodoki",
     "spot": "osezaki",
-    "point": "sakushita",
-    "date": "2026-02-14",
-    "sourceUrl": "https://example.com/sample-log/1",
-    "sourceName": "サンプル（実データではありません）"
+    "date": "2026-11-23",
+    "sourceUrl": "https://blog.terrys.jp/2026/11/49415/",
+    "sourceName": "ダイブテリーズ"
   },
   {
-    "fish": "dangouo",
+    "fish": "shibireei",
     "spot": "osezaki",
-    "point": "sentan",
-    "date": "2026-03-08",
-    "sourceUrl": "https://example.com/sample-log/2",
-    "sourceName": "サンプル（実データではありません）"
+    "date": "2026-11-23",
+    "sourceUrl": "https://blog.terrys.jp/2026/11/49415/",
+    "sourceName": "ダイブテリーズ"
   },
   {
-    "fish": "dangouo",
+    "fish": "hakofugu",
     "spot": "osezaki",
-    "point": "sakushita",
-    "date": "2026-04-05",
-    "sourceUrl": "https://example.com/sample-log/3",
-    "sourceName": "サンプル（実データではありません）"
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/海のアイドル-ハコフグ幼魚に夢中-2026-11-23（月）-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
   },
   {
-    "fish": "hanatatsu",
+    "fish": "oomonkaeruankou",
     "spot": "osezaki",
-    "point": "wannai",
-    "date": "2026-05-17",
-    "sourceUrl": "https://example.com/sample-log/4",
-    "sourceName": "サンプル（実データではありません）"
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/岩場に潜む大きなハンター！存在感抜群のオオモンカエルアンコウ！-2026-11-22-日-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
   },
   {
-    "fish": "hanatatsu",
+    "fish": "irokaeruankou",
     "spot": "osezaki",
-    "point": "wannai",
-    "date": "2026-10-11",
-    "sourceUrl": "https://example.com/sample-log/5",
-    "sourceName": "サンプル（実データではありません）"
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/海の中でひときわ目立つ鮮やかなオレンジ！イロカエルアンコウ-2026-11-20（金）-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
   },
   {
-    "fish": "kumanomi",
+    "fish": "kumadorikaeruankou",
     "spot": "osezaki",
-    "point": "wannai",
-    "date": "2026-07-12",
-    "sourceUrl": "https://example.com/sample-log/6",
-    "sourceName": "サンプル（実データではありません）"
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/紅白の歌舞伎役者！白いクマドリカエルアンコウが登場！",
+    "sourceName": "マリンハウス レイアロハ"
   },
   {
-    "fish": "kumanomi",
+    "fish": "shibireei",
     "spot": "osezaki",
-    "point": "monshita",
-    "date": "2026-08-23",
-    "sourceUrl": "https://example.com/sample-log/7",
-    "sourceName": "サンプル（実データではありません）"
+    "date": "2026-11-15",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/砂地に潜む電気の使い手！大瀬崎でシビレエイを発見！2026-11-15（日）-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
   },
   {
-    "fish": "mijinbenihaze",
+    "fish": "kumadorikaeruankou",
     "spot": "osezaki",
-    "point": "wannai",
-    "date": "2026-06-21",
-    "sourceUrl": "https://example.com/sample-log/8",
-    "sourceName": "サンプル（実データではありません）"
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/人気者が勢ぞろい！シロクマ＆アオウミガメに遭遇-2026-11-14（土）大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
   },
   {
-    "fish": "mijinbenihaze",
+    "fish": "kumadorikaeruankou",
     "spot": "osezaki",
-    "point": "wannai",
-    "date": "2026-09-06",
-    "sourceUrl": "https://example.com/sample-log/9",
-    "sourceName": "サンプル（実データではありません）"
+    "date": "2026-11-13",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/黒いクマドリカエルアンコウに会ってきました。2026-11-13（金）",
+    "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-13",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/黒いクマドリカエルアンコウに会ってきました。2026-11-13（金）",
+    "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/鮮やかなオレンジが目を引く！ベニカエルアンコウ-2026-11-11-水-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/個性豊かな海の仲間たち-2026-11-08-日-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
   },
   {
     "fish": "nejirinbou",
     "spot": "osezaki",
-    "point": "wannai",
-    "date": "2026-09-21",
-    "sourceUrl": "https://example.com/sample-log/10",
-    "sourceName": "サンプル（実データではありません）"
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/個性豊かな海の仲間たち-2026-11-08-日-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
   },
   {
-    "fish": "irokaeruankou",
+    "fish": "houbou",
     "spot": "osezaki",
-    "point": "ipponmatsu",
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/個性豊かな海の仲間たち-2026-11-08-日-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "buri",
+    "spot": "osezaki",
+    "date": "2026-11-06",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/約1メートルのブリ、その迫力！-2026-11-06-金-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "hosofuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-05",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/新登場！真っ赤なホソフウライウオ-2026-11-05（木）大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "hosofuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-03",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/海藻にそっくり！珍しいホソフウライウオ登場-2026-11-03（火）大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "gomasaba",
+    "spot": "osezaki",
     "date": "2026-11-02",
-    "sourceUrl": "https://example.com/sample-log/11",
-    "sourceName": "サンプル（実データではありません）"
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/目の前を埋め尽くすゴマサバの大群！-2026-11-02-月-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
   },
   {
-    "fish": "irokaeruankou",
+    "fish": "hanahaze",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/水中を優雅に舞う青いペア！ハナハゼ-2026-11-01-日-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "kuroyurihaze",
+    "spot": "osezaki",
+    "date": "2026-10-31",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/青と黒の美しいコントラスト！クロユリハゼ-2026-10-31-土-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-10-22",
+    "sourceUrl": "https://diving-kz-marine.com/6833/",
+    "sourceName": "ケイズマリン"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-10-22",
+    "sourceUrl": "https://diving-kz-marine.com/6833/",
+    "sourceName": "ケイズマリン"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-10-22",
+    "sourceUrl": "https://diving-kz-marine.com/6833/",
+    "sourceName": "ケイズマリン"
+  },
+  {
+    "fish": "sakatazame",
+    "spot": "osezaki",
+    "date": "2026-05-10",
+    "sourceUrl": "https://blog.terrys.jp/2026/05/46961/",
+    "sourceName": "ダイブテリーズ"
+  },
+  {
+    "fish": "mongaradooshi",
+    "spot": "osezaki",
+    "date": "2026-05-10",
+    "sourceUrl": "https://blog.terrys.jp/2026/05/46961/",
+    "sourceName": "ダイブテリーズ"
+  },
+  {
+    "fish": "kasuzame",
+    "spot": "osezaki",
+    "point": "sotoumi",
+    "date": "2026-05-10",
+    "sourceUrl": "https://blog.terrys.jp/2026/05/46961/",
+    "sourceName": "ダイブテリーズ"
+  },
+  {
+    "fish": "hirataei",
+    "spot": "osezaki",
+    "date": "2026-05-10",
+    "sourceUrl": "https://blog.terrys.jp/2026/05/46961/",
+    "sourceName": "ダイブテリーズ"
+  },
+  {
+    "fish": "hirame",
+    "spot": "osezaki",
+    "date": "2026-05-10",
+    "sourceUrl": "https://blog.terrys.jp/2026/05/46961/",
+    "sourceName": "ダイブテリーズ"
+  },
+  {
+    "fish": "tengunootoshigo",
     "spot": "osezaki",
     "point": "wannai",
-    "date": "2026-11-15",
-    "sourceUrl": "https://example.com/sample-log/12",
-    "sourceName": "サンプル（実データではありません）"
+    "date": "2026-03-12",
+    "sourceUrl": "https://diving-kz-marine.com/5948/",
+    "sourceName": "ケイズマリン"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "point": "wannai",
+    "date": "2026-03-12",
+    "sourceUrl": "https://diving-kz-marine.com/5948/",
+    "sourceName": "ケイズマリン"
   }
 ]

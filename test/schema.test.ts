@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { readFileSync } from 'node:fs';
-import { validate } from '../src/lib/schema.mjs';
+import { validate, isValidDate, todayJst } from '../src/lib/schema.mjs';
 
 const load = (name: string) => JSON.parse(readFileSync(new URL(`../src/data/${name}.json`, import.meta.url), 'utf8'));
 
@@ -51,6 +51,25 @@ describe('データ検証', () => {
     expect(errors).toContain('未登録のポイント');
   });
 
+  it('スポット・魚の id の重複はエラー', () => {
+    const d = base();
+    d.fish.push({ id: 'kumanomi', name: '別名' });
+    expect(validate(d).join('\n')).toContain('重複');
+  });
+
+  it('実在しない日付はエラー', () => {
+    const d = base();
+    d.sightings[0]!.date = '2026-02-30';
+    expect(validate(d).join('\n')).toContain('実在する');
+  });
+
+  it('未来の日付はエラー', () => {
+    const d = base();
+    d.sightings[0]!.date = '2026-12-01';
+    expect(validate(d, { today: '2026-11-26' }).join('\n')).toContain('未来の日付');
+    expect(validate(d, { today: '2026-12-01' })).toEqual([]);
+  });
+
   it('日付の形式が違うとエラー', () => {
     const d = base();
     d.sightings[0]!.date = '2026/7/12';
@@ -61,5 +80,18 @@ describe('データ検証', () => {
     const d = base();
     d.sightings.push({ ...d.sightings[0]! });
     expect(validate(d).join('\n')).toContain('重複');
+  });
+});
+
+describe('日付ヘルパー', () => {
+  it('isValidDate は閏日も正しく判定する', () => {
+    expect(isValidDate('2028-02-29')).toBe(true);
+    expect(isValidDate('2026-02-29')).toBe(false);
+    expect(isValidDate('2026-1-01')).toBe(false);
+  });
+
+  it('todayJst は日本時間の日付を返す', () => {
+    expect(todayJst(new Date('2026-11-30T15:30:00Z'))).toBe('2026-12-01');
+    expect(todayJst(new Date('2026-11-30T14:59:00Z'))).toBe('2026-11-30');
   });
 });
