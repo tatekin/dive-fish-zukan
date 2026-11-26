@@ -78,11 +78,11 @@
 
 ## 最初の準備（人間がブラウザで1回だけやる）
 
-- [ ] GitHubで公開リポジトリ `dive-fish-zukan` を作成（空のまま。README等は作らない）
-- [ ] Claude GitHub Appをリポジトリにインストール
-- [ ] **Settings → Pages → Build and deployment → Source** を「GitHub Actions」にする
-- [ ] **Settings → Branches（または Rules → Rulesets）** で `main` に「PR必須」「ステータスチェック `test` 必須」を設定
-- [ ] **Settings → Actions → General → Workflow permissions** を「Read and write permissions」にする（CIからマージ・デプロイ起動するため）
+- [x] GitHubで公開リポジトリ `dive-fish-zukan` を作成
+- [x] Claude GitHub Appをリポジトリにインストール
+- [x] **Settings → Pages → Build and deployment → Source** を「GitHub Actions」にする
+- [x] **Settings → Branches（または Rules → Rulesets）** で `main` に「PR必須」「ステータスチェック `test` 必須」を設定
+- [x] **Settings → Actions → General → Workflow permissions** を「Read and write permissions」にする（CIからマージ・デプロイ起動するため）
 
 手順の詳細は README.md を参照。
 
