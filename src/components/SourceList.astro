@@ -1,0 +1,28 @@
+---
+import { fishById, hostOf, url, placeName, type Sighting } from '../lib/data';
+interface Props { list: Sighting[]; show?: 'fish' | 'spot' | 'both' }
+// show="fish" のときはスポット列の代わりにポイント列を出す
+const { list, show = 'both' } = Astro.props;
+---
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>日付</th>
+        {show !== 'spot' && <th>魚</th>}
+        <th>{show === 'fish' ? 'ポイント' : '場所'}</th>
+        <th>出典</th>
+      </tr>
+    </thead>
+    <tbody>
+      {list.map((s) => (
+        <tr>
+          <td>{s.date}</td>
+          {show !== 'spot' && <td><a href={url(`fish/${s.fish}/`)}>{fishById.get(s.fish)?.name}</a></td>}
+          <td>{show === 'fish' ? placeName(s, false) : <a href={url(`spots/${s.spot}/`)}>{placeName(s)}</a>}</td>
+          <td><a href={s.sourceUrl} target="_blank" rel="noopener noreferrer nofollow">{s.sourceName ?? hostOf(s.sourceUrl)}</a></td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

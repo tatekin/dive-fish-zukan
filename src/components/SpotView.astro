@@ -1,0 +1,46 @@
+---
+import MonthHeat from './MonthHeat.astro';
+import MonthHeader from './MonthHeader.astro';
+import SourceList from './SourceList.astro';
+import { sightings, fishById, groupBy, monthCounts, placeName, url, type Spot } from '../lib/data';
+
+interface Props { spot: Spot }
+const { spot } = Astro.props;
+const list = sightings.filter((s) => s.spot === spot.id);
+const rows = [...groupBy(list, (s) => s.fish).entries()]
+  .map(([fid, l]) => ({
+    fish: fishById.get(fid)!,
+    counts: monthCounts(l),
+    total: l.length,
+    points: [...new Set(l.map((s) => placeName(s, false)).filter(Boolean))],
+  }))
+  .sort((a, b) => b.total - a.total || a.fish.name.localeCompare(b.fish.name, 'ja'));
+const max = Math.max(1, ...rows.flatMap((r) => r.counts));
+const thisMonth = new Date().getMonth() + 1;
+const nowRows = rows.filter((r) => (r.counts[thisMonth - 1] ?? 0) > 0);
+---
+<p class="muted">{spot.region} / {spot.prefecture}{spot.area ? ` / ${spot.area}` : ''}</p>
+<h1>{spot.name}で見られる魚</h1>
+<p>{rows.length} 種・{list.length} 件の記録。色が濃い月ほど記録が多い月です。</p>
+{nowRows.length > 0 && (
+  <p>今月（{thisMonth}月）の記録がある魚：{nowRows.map((r, i) => <>{i > 0 && '、'}<a href={url(`fish/${r.fish.id}/`)}>{r.fish.name}</a></>)}</p>
+)}
+{rows.length === 0 ? <p>まだ記録がありません。</p> : (
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>魚</th><th><MonthHeader /></th><th>件数</th>{spot.points?.length ? <th>ポイント</th> : null}</tr></thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr>
+            <td><a href={url(`fish/${r.fish.id}/`)}>{r.fish.name}</a></td>
+            <td><MonthHeat counts={r.counts} max={max} /></td>
+            <td>{r.total}</td>
+            {spot.points?.length ? <td class="muted">{r.points.join('、')}</td> : null}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+)}
+<h2>出典（ショップのログ）</h2>
+<SourceList list={list} show="fish" />

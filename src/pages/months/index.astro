@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import { MONTHS, sightings, monthOf, url } from '../../lib/data';
+const count = (m: number) => new Set(sightings.filter((s) => monthOf(s) === m).map((s) => s.fish)).size;
+---
+<Base title="季節から探す">
+  <h1>季節から探す</h1>
+  <ul class="cards">
+    {MONTHS.map((m) => <li><a href={url(`months/${m}/`)}>{m}月</a><br /><span class="muted">{count(m)} 種</span></li>)}
+  </ul>
+</Base>

@@ -1,0 +1,27 @@
+---
+import Base from '../layouts/Base.astro';
+import SpotView from '../components/SpotView.astro';
+import SourceList from '../components/SourceList.astro';
+import { spots, fish, sightings, url, MONTHS, singleSpot, SITE_NAME } from '../lib/data';
+const recent = sightings.slice(0, 10);
+const now = new Date().getMonth() + 1;
+---
+<Base>
+  {singleSpot ? (
+    <SpotView spot={singleSpot} />
+  ) : (
+    <>
+      <h1>{SITE_NAME}</h1>
+      <p>全国のダイビングスポットで、いつ・どこで・どんな魚が見られたかを<strong>スポット × 魚 × 季節</strong>でまとめています。</p>
+      <ul class="cards">
+        <li><a href={url('spots/')}>スポットから探す</a><br /><span class="muted">{spots.length} スポット</span></li>
+        <li><a href={url('fish/')}>魚から探す</a><br /><span class="muted">{fish.length} 種</span></li>
+        <li><a href={url(`months/${now}/`)}>今月（{now}月）見られる魚</a><br /><span class="muted">記録 {sightings.length} 件</span></li>
+      </ul>
+      <h2>最近の記録</h2>
+      <SourceList list={recent} />
+    </>
+  )}
+  <h2>月から探す</h2>
+  <p>{MONTHS.map((m) => <a href={url(`months/${m}/`)} style="margin-right:.75rem">{m}月</a>)}</p>
+</Base>

@@ -1,0 +1,30 @@
+---
+import Base from '../../layouts/Base.astro';
+import MonthHeat from '../../components/MonthHeat.astro';
+import MonthHeader from '../../components/MonthHeader.astro';
+import { fish, sightings, monthCounts, url } from '../../lib/data';
+const rows = [...fish]
+  .sort((a, b) => a.name.localeCompare(b.name, 'ja'))
+  .map((f) => {
+    const l = sightings.filter((s) => s.fish === f.id);
+    return { f, counts: monthCounts(l), spots: new Set(l.map((s) => s.spot)).size };
+  });
+---
+<Base title="魚一覧">
+  <h1>魚一覧</h1>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>和名</th><th>科</th><th><MonthHeader /></th><th>スポット数</th></tr></thead>
+      <tbody>
+        {rows.map(({ f, counts, spots }) => (
+          <tr>
+            <td><a href={url(`fish/${f.id}/`)}>{f.name}</a></td>
+            <td class="muted">{f.family ?? ''}</td>
+            <td><MonthHeat counts={counts} /></td>
+            <td>{spots}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</Base>

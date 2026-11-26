@@ -1,0 +1,8 @@
+[
+  { "id": "kumanomi", "name": "クマノミ", "scientificName": "Amphiprion clarkii", "family": "スズメダイ科" },
+  { "id": "hanatatsu", "name": "ハナタツ", "scientificName": "Hippocampus sindonis", "family": "ヨウジウオ科" },
+  { "id": "mijinbenihaze", "name": "ミジンベニハゼ", "scientificName": "Lubricogobius exiguus", "family": "ハゼ科" },
+  { "id": "dangouo", "name": "ダンゴウオ", "scientificName": "Lethotremus awae", "family": "ダンゴウオ科" },
+  { "id": "nejirinbou", "name": "ネジリンボウ", "scientificName": "Stonogobiops xanthorhinica", "family": "ハゼ科" },
+  { "id": "irokaeruankou", "name": "イロカエルアンコウ", "family": "カエルアンコウ科" }
+]

@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import SpotView from '../../components/SpotView.astro';
+import { spots, type Spot } from '../../lib/data';
+
+export function getStaticPaths() {
+  return spots.map((spot) => ({ params: { id: spot.id }, props: { spot } }));
+}
+const { spot } = Astro.props as { spot: Spot };
+---
+<Base title={spot.name} description={`${spot.name}（${spot.prefecture}）で見られる魚と季節`}>
+  <SpotView spot={spot} />
+</Base>

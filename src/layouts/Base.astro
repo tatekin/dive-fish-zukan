@@ -1,0 +1,64 @@
+---
+import { url, singleSpot, SITE_NAME } from '../lib/data';
+interface Props { title?: string; description?: string }
+const defaultDescription = singleSpot
+  ? `${singleSpot.name}（${singleSpot.prefecture}）で見られる魚を、季節ごとにまとめた図鑑です。`
+  : '全国のダイビングスポットで見られる魚を、スポット×魚×季節でまとめた図鑑です。';
+const { title, description = defaultDescription } = Astro.props;
+const fullTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME;
+---
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={url('favicon.svg')} />
+    <title>{fullTitle}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href={url('/')}>{SITE_NAME}</a>
+      <nav>
+        {!singleSpot && <a href={url('spots/')}>スポット</a>}
+        <a href={url('fish/')}>魚</a>
+        <a href={url('months/')}>季節</a>
+        <a href={url('about/')}>出典について</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>目撃情報は各ダイビングショップのログを出典としています。掲載しているのは魚名・日付・スポット・出典URLのみで、文章や写真は転載していません。詳細は各出典ページをご覧ください。</p>
+    </footer>
+  </body>
+</html>
+<style is:global>
+  :root {
+    --bg: #f6fafb; --fg: #13262f; --muted: #5a6f78; --accent: #0b6e8f; --line: #d6e3e8; --card: #fff;
+    --heat-0: #eef4f6; --heat-1: #b9e2ee; --heat-2: #6fc3dc; --heat-3: #2a95b8; --heat-4: #0b5f7d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0c1a20; --fg: #e3eef2; --muted: #93a9b2; --accent: #6fcbe6; --line: #24404b; --card: #12252d;
+      --heat-0: #17303a; --heat-1: #1d5366; --heat-2: #237a95; --heat-3: #3aa6c6; --heat-4: #8fdcf0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.7; }
+  a { color: var(--accent); }
+  main { max-width: 64rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  .site-header { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: space-between; padding: .75rem 1rem; border-bottom: 1px solid var(--line); background: var(--card); }
+  .brand { font-weight: 700; text-decoration: none; color: var(--fg); }
+  .site-header nav { display: flex; flex-wrap: wrap; gap: 1rem; }
+  .site-footer { max-width: 64rem; margin: 0 auto; padding: 1rem; font-size: .85rem; color: var(--muted); border-top: 1px solid var(--line); }
+  h1 { font-size: 1.6rem; margin: .5rem 0 1rem; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .75rem; }
+  .muted { color: var(--muted); }
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+  th, td { border-bottom: 1px solid var(--line); padding: .4rem .5rem; text-align: left; white-space: nowrap; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: .75rem; padding: 0; list-style: none; }
+  .cards li { background: var(--card); border: 1px solid var(--line); border-radius: .5rem; padding: .75rem 1rem; }
+</style>

@@ -1,0 +1,98 @@
+[
+  {
+    "fish": "dangouo",
+    "spot": "osezaki",
+    "point": "sakushita",
+    "date": "2026-02-14",
+    "sourceUrl": "https://example.com/sample-log/1",
+    "sourceName": "サンプル（実データではありません）"
+  },
+  {
+    "fish": "dangouo",
+    "spot": "osezaki",
+    "point": "sentan",
+    "date": "2026-03-08",
+    "sourceUrl": "https://example.com/sample-log/2",
+    "sourceName": "サンプル（実データではありません）"
+  },
+  {
+    "fish": "dangouo",
+    "spot": "osezaki",
+    "point": "sakushita",
+    "date": "2026-04-05",
+    "sourceUrl": "https://example.com/sample-log/3",
+    "sourceName": "サンプル（実データではありません）"
+  },
+  {
+    "fish": "hanatatsu",
+    "spot": "osezaki",
+    "point": "wannai",
+    "date": "2026-05-17",
+    "sourceUrl": "https://example.com/sample-log/4",
+    "sourceName": "サンプル（実データではありません）"
+  },
+  {
+    "fish": "hanatatsu",
+    "spot": "osezaki",
+    "point": "wannai",
+    "date": "2026-10-11",
+    "sourceUrl": "https://example.com/sample-log/5",
+    "sourceName": "サンプル（実データではありません）"
+  },
+  {
+    "fish": "kumanomi",
+    "spot": "osezaki",
+    "point": "wannai",
+    "date": "2026-07-12",
+    "sourceUrl": "https://example.com/sample-log/6",
+    "sourceName": "サンプル（実データではありません）"
+  },
+  {
+    "fish": "kumanomi",
+    "spot": "osezaki",
+    "point": "monshita",
+    "date": "2026-08-23",
+    "sourceUrl": "https://example.com/sample-log/7",
+    "sourceName": "サンプル（実データではありません）"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "point": "wannai",
+    "date": "2026-06-21",
+    "sourceUrl": "https://example.com/sample-log/8",
+    "sourceName": "サンプル（実データではありません）"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "point": "wannai",
+    "date": "2026-09-06",
+    "sourceUrl": "https://example.com/sample-log/9",
+    "sourceName": "サンプル（実データではありません）"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "point": "wannai",
+    "date": "2026-09-21",
+    "sourceUrl": "https://example.com/sample-log/10",
+    "sourceName": "サンプル（実データではありません）"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "point": "ipponmatsu",
+    "date": "2026-11-02",
+    "sourceUrl": "https://example.com/sample-log/11",
+    "sourceName": "サンプル（実データではありません）"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "point": "wannai",
+    "date": "2026-11-15",
+    "sourceUrl": "https://example.com/sample-log/12",
+    "sourceName": "サンプル（実データではありません）"
+  }
+]

@@ -1,0 +1,51 @@
+name: GitHub Pages にデプロイ
+
+# 人が main に push したとき、または CI の merge-and-deploy ジョブから起動される
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  # 「今月見られる魚」はビルド時の月で決まるので、毎月1日（日本時間 9:00）に作り直す
+  schedule:
+    - cron: '0 0 1 * *'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - id: pages
+        uses: actions/configure-pages@v5
+      - run: npm ci
+      - name: Build (データ検証 + Astro build)
+        run: npm run build
+        env:
+          SITE: ${{ steps.pages.outputs.origin }}
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

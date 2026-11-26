@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import { spotsByRegion, sightings, url } from '../../lib/data';
+const countBySpot = (id: string) => new Set(sightings.filter((s) => s.spot === id).map((s) => s.fish)).size;
+---
+<Base title="スポット一覧">
+  <h1>スポット一覧</h1>
+  {spotsByRegion().map(([region, list]) => (
+    <section>
+      <h2>{region}</h2>
+      <ul class="cards">
+        {list.map((s) => (
+          <li>
+            <a href={url(`spots/${s.id}/`)}>{s.name}</a><br />
+            <span class="muted">{s.prefecture}{s.area ? ` / ${s.area}` : ''} ・ {countBySpot(s.id)} 種</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>

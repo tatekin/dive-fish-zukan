@@ -1,0 +1,16 @@
+[
+  {
+    "id": "osezaki",
+    "name": "大瀬崎",
+    "prefecture": "静岡県",
+    "region": "東海",
+    "area": "西伊豆",
+    "points": [
+      { "id": "wannai", "name": "湾内" },
+      { "id": "sentan", "name": "先端" },
+      { "id": "sakushita", "name": "柵下" },
+      { "id": "monshita", "name": "門下" },
+      { "id": "ipponmatsu", "name": "一本松" }
+    ]
+  }
+]

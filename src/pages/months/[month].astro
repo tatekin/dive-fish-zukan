@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import SourceList from '../../components/SourceList.astro';
+import { MONTHS, sightings, monthOf, groupBy, spotById, fishById, url, singleSpot } from '../../lib/data';
+
+export function getStaticPaths() {
+  return MONTHS.map((m) => ({ params: { month: String(m) } }));
+}
+const m = Number(Astro.params.month);
+const list = sightings.filter((s) => monthOf(s) === m);
+const bySpot = [...groupBy(list, (s) => s.spot).entries()].map(([sid, l]) => ({
+  spot: spotById.get(sid)!,
+  fish: [...new Set(l.map((s) => s.fish))].map((id) => fishById.get(id)!),
+}));
+const prev = m === 1 ? 12 : m - 1;
+const next = m === 12 ? 1 : m + 1;
+---
+<Base title={`${m}月に見られる魚`}>
+  <p><a href={url(`months/${prev}/`)}>← {prev}月</a> ・ <a href={url(`months/${next}/`)}>{next}月 →</a></p>
+  <h1>{singleSpot ? `${singleSpot.name}で` : ''}{m}月に見られる魚</h1>
+  <p class="muted">各年の{m}月の記録をまとめています。</p>
+  {bySpot.length === 0 ? <p>まだ記録がありません。</p> : (
+    <ul class="cards">
+      {bySpot.map(({ spot, fish }) => (
+        <li>
+          <a href={url(`spots/${spot.id}/`)}><strong>{spot.name}</strong></a> <span class="muted">{spot.prefecture}</span>
+          <br />{fish.map((f, i) => <>{i > 0 && '、'}<a href={url(`fish/${f.id}/`)}>{f.name}</a></>)}
+        </li>
+      ))}
+    </ul>
+  )}
+  <h2>出典（ショップのログ）</h2>
+  <SourceList list={list} />
+</Base>

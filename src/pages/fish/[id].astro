@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import MonthHeat from '../../components/MonthHeat.astro';
+import MonthHeader from '../../components/MonthHeader.astro';
+import SourceList from '../../components/SourceList.astro';
+import { fish, sightings, spotById, groupBy, monthCounts, url, type Fish } from '../../lib/data';
+
+export function getStaticPaths() {
+  return fish.map((f) => ({ params: { id: f.id }, props: { f } }));
+}
+const { f } = Astro.props as { f: Fish };
+const list = sightings.filter((s) => s.fish === f.id);
+const rows = [...groupBy(list, (s) => s.spot).entries()]
+  .map(([sid, l]) => ({ spot: spotById.get(sid)!, counts: monthCounts(l), total: l.length }))
+  .sort((a, b) => b.total - a.total);
+const max = Math.max(1, ...rows.flatMap((r) => r.counts));
+---
+<Base title={f.name} description={`${f.name}が見られるダイビングスポットと季節`}>
+  <h1>{f.name}</h1>
+  <p class="muted">{f.scientificName && <i>{f.scientificName}</i>}{f.family && ` ・ ${f.family}`}</p>
+  <h2>見られるスポットと季節</h2>
+  {rows.length === 0 ? <p>まだ記録がありません。</p> : (
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>スポット</th><th><MonthHeader /></th><th>件数</th></tr></thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr>
+              <td><a href={url(`spots/${r.spot.id}/`)}>{r.spot.name}</a> <span class="muted">{r.spot.prefecture}</span></td>
+              <td><MonthHeat counts={r.counts} max={max} /></td>
+              <td>{r.total}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )}
+  <h2>出典（ショップのログ）</h2>
+  <SourceList list={list} show="spot" />
+</Base>
