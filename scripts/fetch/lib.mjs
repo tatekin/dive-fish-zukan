@@ -47,16 +47,25 @@ const KATAKANA_RUN = /[ァ-ヺー・]+/g;
 const GENERIC = new Set(['ペア', 'ペアー', 'サイズ', 'カップル', 'ベビー', 'チビ', 'ビーチ', 'ボート', 'ダイブ', 'ダイバー', 'ダイビング', 'ポイント', 'ガイド', 'ゲスト', 'ライト', 'カメラ', 'ドライ', 'ウェット', 'スーツ', 'エントリー', 'エキジット', 'ブイ', 'ロープ', 'ゴロタ', 'ウネリ', 'ウミ', 'メイン', 'ラスト', 'セット', 'シーズン', 'レア', 'ヨコ', 'タテ', 'ハッチアウト', 'ホバリング', 'アイドル', 'ハンター', 'オレンジ', 'ピンク', 'ブルー', 'イエロー', 'ハート', 'シルエット', 'ゲット', 'チャンス', 'キラキラ', 'ゆらゆら', 'ユラユラ', 'フワフワ', 'ニョロニョロ', 'ペタペタ', 'パクパク', 'ノーマル', 'ペリクリ']);
 
 /**
- * 辞書を作る。names: 標準和名 → fishId、aliases: ログでの表記 → fishId、ignore: 魚ではない・記録しない名前
+ * 辞書を作る。fish の標準和名 → fishId、aliases: ログでの表記 → fishId、
+ * ignore / ignoreSuffixes: 魚ではない・記録しない名前（とその語尾）
  * @param {{id:string,name:string}[]} fish
- * @param {{aliases?:Record<string,string>, ignore?:string[]}} extra
+ * @param {{aliases?:Record<string,string>, ignore?:string[], ignoreSuffixes?:string[]}} extra
  */
 export function buildDictionary(fish, extra = {}) {
   const byName = new Map();
   for (const f of fish) byName.set(norm(f.name), f.id);
   for (const [k, v] of Object.entries(extra.aliases ?? {})) byName.set(norm(k), v);
-  return { byName, ignore: new Set((extra.ignore ?? []).map(norm)) };
+  return {
+    byName,
+    ignore: new Set((extra.ignore ?? []).map(norm)),
+    ignoreSuffixes: (extra.ignoreSuffixes ?? []).map(norm),
+  };
 }
+
+/** 辞書になく、記録もしない（魚ではない等）名前か */
+export const isIgnored = (dict, name) =>
+  dict.ignore.has(name) || GENERIC.has(name) || (dict.ignoreSuffixes ?? []).some((s) => name.endsWith(s));
 
 /**
  * 生物名が並んだ文字列から、辞書にある魚の id と、辞書にない名前の候補を取り出す。
@@ -75,7 +84,7 @@ export function extractNames(text, dict, { collectUnknown = true } = {}) {
         if (name.length < 2) continue;
         const id = dict.byName.get(name);
         if (id) fishIds.add(id);
-        else if (collectUnknown && !dict.ignore.has(name) && !GENERIC.has(name)) unknown.add(name);
+        else if (collectUnknown && !isIgnored(dict, name)) unknown.add(name);
       }
     }
   }

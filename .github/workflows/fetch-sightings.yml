@@ -1,0 +1,67 @@
+name: 大瀬崎のログを自動取得
+
+# 毎日、ショップのログ（COCOMO OSEZAKI・マリンハウス レイアロハ・シーキング）から
+# 魚名・日付・出典URLだけを取り出し、新しい記録があれば claude/auto-sightings ブランチでPRを作る。
+# GITHUB_TOKEN で作ったPRでは pull_request のワークフローが起動しないため、
+# ci.yml を workflow_dispatch で起動する（CIが通れば ci.yml の merge-and-deploy がマージ・デプロイする）。
+
+on:
+  schedule:
+    - cron: '30 12 * * *' # 日本時間 21:30（各ショップがその日のログを出したあと）
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 何日分さかのぼって取得するか
+        default: '4'
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: fetch-sightings
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    env:
+      BRANCH: claude/auto-sightings
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - name: ログを取得して記録を追加
+        run: node scripts/fetch-sightings.mjs --days "$DAYS" --report "$RUNNER_TEMP/report.md"
+        env:
+          DAYS: ${{ inputs.days || '4' }}
+      - name: 結果をジョブの概要に出す
+        if: always()
+        run: if [ -f "$RUNNER_TEMP/report.md" ]; then cat "$RUNNER_TEMP/report.md" >> "$GITHUB_STEP_SUMMARY"; fi
+      - name: PRを作ってCIを起動
+        run: |
+          if git diff --quiet -- src/data/sightings.json scripts/fetch/unmatched-names.json; then
+            echo "新しい記録はありません"
+            exit 0
+          fi
+          today=$(TZ=Asia/Tokyo date +%F)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$BRANCH"
+          git add src/data/sightings.json scripts/fetch/unmatched-names.json
+          git commit -m "大瀬崎のログから目撃記録を自動追加（${today}）"
+          git push --force origin "$BRANCH"
+          num=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$BRANCH" --state open --json number --jq '.[0].number // empty')
+          if [ -z "$num" ]; then
+            gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$BRANCH" \
+              --title "大瀬崎のログから目撃記録を自動追加（${today}）" --body-file "$RUNNER_TEMP/report.md"
+          else
+            gh pr edit "$num" --repo "$GITHUB_REPOSITORY" --title "大瀬崎のログから目撃記録を自動追加（${today}）" --body-file "$RUNNER_TEMP/report.md"
+          fi
+          gh workflow run ci.yml --repo "$GITHUB_REPOSITORY" --ref "$BRANCH"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

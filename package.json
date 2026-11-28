@@ -10,7 +10,8 @@
     "validate": "node scripts/validate.mjs",
     "typecheck": "astro check",
     "test": "vitest run",
-    "add-sighting": "node scripts/add-sighting.mjs"
+    "add-sighting": "node scripts/add-sighting.mjs",
+    "fetch-sightings": "node scripts/fetch-sightings.mjs"
   },
   "dependencies": {
     "astro": "^7.4.13"

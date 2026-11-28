@@ -6,7 +6,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { parseArgs } from 'node:util';
 import { validate, todayJst } from '../src/lib/schema.mjs';
 import {
-  addDays, buildDictionary, extractNames, mergeSightings, parseCocomo, parseLeialohaFeed, parseSeaking, robotsAllows,
+  addDays, buildDictionary, extractNames, isIgnored, mergeSightings, parseCocomo, parseLeialohaFeed, parseSeaking, robotsAllows,
 } from './fetch/lib.mjs';
 
 const { values: args } = parseArgs({
@@ -62,9 +62,15 @@ async function cocomo() {
   const latest = Math.max(...first.ids);
   if (!Number.isFinite(latest)) throw new Error('COCOMO: 記事の id が見つかりません（ページの形が変わった可能性）');
   const out = [];
-  for (let id = latest; id > latest - DAYS - 3 && id > 0; id--) {
+  // id はおおむね1日1つずつ増える。欠番（削除された日など）は飛ばす
+  let misses = 0;
+  for (let id = latest; id > 0 && misses < 5; id--) {
     const p = parseCocomo(await get(`${base}?id=${id}`));
-    if (!p.date) throw new Error(`COCOMO: 日付が読めません（id=${id}）`);
+    if (!p.date) {
+      if (id === latest) throw new Error(`COCOMO: 日付が読めません（id=${id}、ページの形が変わった可能性）`);
+      misses++;
+      continue;
+    }
     if (p.date < cutoff) break;
     out.push({ date: p.date, url: `${base}?id=${id}`, text: p.creatures, collectUnknown: true });
   }
@@ -138,7 +144,7 @@ if (errors.length) {
 const unmatchedPath = new URL('./fetch/unmatched-names.json', import.meta.url);
 /** @type {Record<string,string[]>} */
 const prev = JSON.parse(readFileSync(unmatchedPath, 'utf8'));
-const unmatched = new Map(Object.entries(prev).filter(([k]) => !dict.byName.has(k) && !dict.ignore.has(k)));
+const unmatched = new Map(Object.entries(prev).filter(([k]) => !dict.byName.has(k) && !isIgnored(dict, k)));
 for (const [k, dates] of unmatchedNow) {
   unmatched.set(k, [...new Set([...(unmatched.get(k) ?? []), ...dates])].sort().reverse().slice(0, 20));
 }
