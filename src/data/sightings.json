@@ -1,17 +1,535 @@
 [
   {
-    "fish": "umeiromodoki",
+    "fish": "benikaeruankou",
     "spot": "osezaki",
-    "date": "2026-11-23",
-    "sourceUrl": "https://blog.terrys.jp/2026/11/49415/",
-    "sourceName": "ダイブテリーズ"
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
   },
   {
-    "fish": "shibireei",
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ibaratatsu",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261127",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261127",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kasuzame",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261127",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261127",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "maaji",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261127",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "matoudai",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261127",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261127",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nigemizuchinanago",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261127",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261127",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "ooumiuma",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3306",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-27",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261127",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-26",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261126",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "garasuhaze",
+    "spot": "osezaki",
+    "date": "2026-11-26",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261126",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-26",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261126",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-26",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261126",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-26",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3305",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-26",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261126",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-26",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3305",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-26",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261126",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "sasahaze",
+    "spot": "osezaki",
+    "date": "2026-11-26",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261126",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-26",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261126",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "umitengu",
+    "spot": "osezaki",
+    "date": "2026-11-26",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3305",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hanaminokasago",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/小さくても存在感抜群！優雅に舞うハナミノカサゴの幼魚！",
+    "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261125",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261125",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261125",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nigemizuchinanago",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261125",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261125",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "ooumiuma",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3304",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-25",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261125",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nigemizuchinanago",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ooumiuma",
+    "spot": "osezaki",
+    "date": "2026-11-24",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3303",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
     "spot": "osezaki",
     "date": "2026-11-23",
-    "sourceUrl": "https://blog.terrys.jp/2026/11/49415/",
-    "sourceName": "ダイブテリーズ"
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
   },
   {
     "fish": "hakofugu",
@@ -21,11 +539,585 @@
     "sourceName": "マリンハウス レイアロハ"
   },
   {
+    "fish": "hatatatehaze",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hotarubionihaze",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ibaratatsu",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261123",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261123",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261123",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nekozame",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nigemizuchinanago",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261123",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3302",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261123",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "ooumiuma",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261123",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "shibireei",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://blog.terrys.jp/2026/11/49415/",
+    "sourceName": "ダイブテリーズ"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261123",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "sujihanadai",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261123",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "umeiromodoki",
+    "spot": "osezaki",
+    "date": "2026-11-23",
+    "sourceUrl": "https://blog.terrys.jp/2026/11/49415/",
+    "sourceName": "ダイブテリーズ"
+  },
+  {
+    "fish": "akahachihaze",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261122",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261122",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hotarubionihaze",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261122",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261122",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261122",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261122",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nigemizuchinanago",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261122",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3301",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
     "fish": "oomonkaeruankou",
     "spot": "osezaki",
     "date": "2026-11-22",
     "sourceUrl": "https://www.marinhouse-leialoha.com/post/岩場に潜む大きなハンター！存在感抜群のオオモンカエルアンコウ！-2026-11-22-日-大瀬崎",
     "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261122",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-22",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261122",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hatatatehaze",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261121",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261121",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261121",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "maaji",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261121",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261121",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nigemizuchinanago",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261121",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3300",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261121",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261121",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "tatejimakinchakudai",
+    "spot": "osezaki",
+    "date": "2026-11-21",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261121",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "garasuhaze",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261120",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261120",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261120",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "hotarubionihaze",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
   },
   {
     "fish": "irokaeruankou",
@@ -35,6 +1127,272 @@
     "sourceName": "マリンハウス レイアロハ"
   },
   {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261120",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261120",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mikazukitsubameuo",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261120",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261120",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nigemizuchinanago",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261120",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3299",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-20",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261120",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-19",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261119",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-19",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3298",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-19",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261119",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-19",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3298",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-19",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261119",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-19",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3298",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-19",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261119",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-19",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261119",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "mikazukitsubameuo",
+    "spot": "osezaki",
+    "date": "2026-11-19",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3298",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-19",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261119",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-19",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261119",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-19",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261119",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3297",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "garasuhaze",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261118",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3297",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3297",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261118",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "hotarubionihaze",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3297",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3297",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3297",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261118",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3297",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
     "fish": "kumadorikaeruankou",
     "spot": "osezaki",
     "date": "2026-11-18",
@@ -42,11 +1400,480 @@
     "sourceName": "マリンハウス レイアロハ"
   },
   {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261118",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3297",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261118",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3297",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "miyaketeguri",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3297",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3297",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3297",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261118",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3297",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261118",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-18",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261118",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hotarubionihaze",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kanmuribera",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "miyaketeguri",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-17",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3296",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261116",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261116",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261116",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3295",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261116",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3295",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261116",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261116",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261116",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261116",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3295",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261116",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261116",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "umitengu",
+    "spot": "osezaki",
+    "date": "2026-11-16",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3295",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-15",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3294",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-15",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261115",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "ibaratatsu",
+    "spot": "osezaki",
+    "date": "2026-11-15",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261115",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-15",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261115",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-15",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261115",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-15",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261115",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-15",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3294",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-15",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261115",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-15",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3294",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-15",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261115",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
     "fish": "shibireei",
     "spot": "osezaki",
     "date": "2026-11-15",
     "sourceUrl": "https://www.marinhouse-leialoha.com/post/砂地に潜む電気の使い手！大瀬崎でシビレエイを発見！2026-11-15（日）-大瀬崎",
     "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-15",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261115",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "tatejimakinchakudai",
+    "spot": "osezaki",
+    "date": "2026-11-15",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261115",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "akatachi",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261114",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "akianago",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261114",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261114",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hotarubionihaze",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ibaratatsu",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261114",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kanmuribera",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
   },
   {
     "fish": "kumadorikaeruankou",
@@ -58,6 +1885,83 @@
   {
     "fish": "kumadorikaeruankou",
     "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261114",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261114",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261114",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3293",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261114",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-14",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261114",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
     "date": "2026-11-13",
     "sourceUrl": "https://www.marinhouse-leialoha.com/post/黒いクマドリカエルアンコウに会ってきました。2026-11-13（金）",
     "sourceName": "マリンハウス レイアロハ"
@@ -66,8 +1970,162 @@
     "fish": "benikaeruankou",
     "spot": "osezaki",
     "date": "2026-11-13",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261113",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "futasujitamagashira",
+    "spot": "osezaki",
+    "date": "2026-11-13",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261113",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-13",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261113",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kanmuribera",
+    "spot": "osezaki",
+    "date": "2026-11-13",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3292",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-13",
     "sourceUrl": "https://www.marinhouse-leialoha.com/post/黒いクマドリカエルアンコウに会ってきました。2026-11-13（金）",
     "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-13",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261113",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "maaji",
+    "spot": "osezaki",
+    "date": "2026-11-13",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261113",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-13",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261113",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "minamihakofugu",
+    "spot": "osezaki",
+    "date": "2026-11-13",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3292",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-13",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261113",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-13",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261113",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-13",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261113",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-13",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261113",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "akatachi",
+    "spot": "osezaki",
+    "date": "2026-11-12",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261112",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-12",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261112",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-12",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3290",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-12",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261112",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-12",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3290",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-12",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261112",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-12",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261112",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-12",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261112",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-12",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261112",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "sasahaze",
+    "spot": "osezaki",
+    "date": "2026-11-12",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3290",
+    "sourceName": "COCOMO OSEZAKI"
   },
   {
     "fish": "benikaeruankou",
@@ -77,18 +2135,368 @@
     "sourceName": "マリンハウス レイアロハ"
   },
   {
-    "fish": "nishikifuuraiuo",
+    "fish": "benikaeruankou",
     "spot": "osezaki",
-    "date": "2026-11-08",
-    "sourceUrl": "https://www.marinhouse-leialoha.com/post/個性豊かな海の仲間たち-2026-11-08-日-大瀬崎",
-    "sourceName": "マリンハウス レイアロハ"
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261111",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261111",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3289",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261111",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "maaji",
+    "spot": "osezaki",
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261111",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261111",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3289",
+    "sourceName": "COCOMO OSEZAKI"
   },
   {
     "fish": "nejirinbou",
     "spot": "osezaki",
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261111",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3289",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261111",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261111",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "sasahaze",
+    "spot": "osezaki",
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3289",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-11",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261111",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "chinanago",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ibaratatsu",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nigemizuchinanago",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-10",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3288",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261109",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261109",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "hotarubionihaze",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ibaratatsu",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261109",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261109",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261109",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261109",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3287",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261109",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "shigehaze",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261109",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-09",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261109",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "akebonohaze",
+    "spot": "osezaki",
     "date": "2026-11-08",
-    "sourceUrl": "https://www.marinhouse-leialoha.com/post/個性豊かな海の仲間たち-2026-11-08-日-大瀬崎",
-    "sourceName": "マリンハウス レイアロハ"
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261108",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261108",
+    "sourceName": "ダイビングサービス シーキング"
   },
   {
     "fish": "houbou",
@@ -98,11 +2506,116 @@
     "sourceName": "マリンハウス レイアロハ"
   },
   {
+    "fish": "ibaratatsu",
+    "spot": "osezaki",
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261108",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261108",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "maaji",
+    "spot": "osezaki",
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261108",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3286",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/個性豊かな海の仲間たち-2026-11-08-日-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261108",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.marinhouse-leialoha.com/post/個性豊かな海の仲間たち-2026-11-08-日-大瀬崎",
+    "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261108",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261108",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "shirobuchihata",
+    "spot": "osezaki",
+    "date": "2026-11-08",
+    "sourceUrl": "https://www.seaking-ds.com/seainfo_detail.php?D=20261108",
+    "sourceName": "ダイビングサービス シーキング"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-07",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3285",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-07",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3285",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-07",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3285",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-06",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3284",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
     "fish": "buri",
     "spot": "osezaki",
     "date": "2026-11-06",
     "sourceUrl": "https://www.marinhouse-leialoha.com/post/約1メートルのブリ、その迫力！-2026-11-06-金-大瀬崎",
     "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-06",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3284",
+    "sourceName": "COCOMO OSEZAKI"
   },
   {
     "fish": "hosofuuraiuo",
@@ -112,11 +2625,144 @@
     "sourceName": "マリンハウス レイアロハ"
   },
   {
+    "fish": "miyaketeguri",
+    "spot": "osezaki",
+    "date": "2026-11-05",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3283",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-05",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3283",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hotarubionihaze",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ibaratatsu",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-04",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3281",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "akahachihaze",
+    "spot": "osezaki",
+    "date": "2026-11-03",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3280",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-03",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3280",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
     "fish": "hosofuuraiuo",
     "spot": "osezaki",
     "date": "2026-11-03",
     "sourceUrl": "https://www.marinhouse-leialoha.com/post/海藻にそっくり！珍しいホソフウライウオ登場-2026-11-03（火）大瀬崎",
     "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-02",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3279",
+    "sourceName": "COCOMO OSEZAKI"
   },
   {
     "fish": "gomasaba",
@@ -126,11 +2772,214 @@
     "sourceName": "マリンハウス レイアロハ"
   },
   {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-02",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3279",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-02",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3279",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hotarubionihaze",
+    "spot": "osezaki",
+    "date": "2026-11-02",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3279",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-02",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3279",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-02",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3279",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-02",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3279",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "date": "2026-11-02",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3279",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-02",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3279",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-02",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3279",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-02",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3279",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
     "fish": "hanahaze",
     "spot": "osezaki",
     "date": "2026-11-01",
     "sourceUrl": "https://www.marinhouse-leialoha.com/post/水中を優雅に舞う青いペア！ハナハゼ-2026-11-01-日-大瀬崎",
     "sourceName": "マリンハウス レイアロハ"
+  },
+  {
+    "fish": "hatatatehaze",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hotarubionihaze",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ibaratatsu",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mijinbenihaze",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "miyaketeguri",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-11-01",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3278",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hanaminokasago",
+    "spot": "osezaki",
+    "date": "2026-10-31",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3277",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-10-31",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3277",
+    "sourceName": "COCOMO OSEZAKI"
   },
   {
     "fish": "kuroyurihaze",
@@ -140,7 +2989,119 @@
     "sourceName": "マリンハウス レイアロハ"
   },
   {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-10-31",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3277",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hachijoutatsu",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hirenaganejirinbou",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "hotarubionihaze",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ibaratatsu",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "irokaeruankou",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "ittenakatachi",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kamisoriuo",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "kumadorikaeruankou",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "matsukasauo",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "mihonohagoromohaze",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nejirinbou",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nigemizuchinanago",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "nishikifuuraiuo",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
     "fish": "oomonkaeruankou",
+    "spot": "osezaki",
+    "date": "2026-10-30",
+    "sourceUrl": "https://www.cocomo-ds.net/p4-1.html?id=3276",
+    "sourceName": "COCOMO OSEZAKI"
+  },
+  {
+    "fish": "benikaeruankou",
     "spot": "osezaki",
     "date": "2026-10-22",
     "sourceUrl": "https://diving-kz-marine.com/6833/",
@@ -154,21 +3115,21 @@
     "sourceName": "ケイズマリン"
   },
   {
-    "fish": "benikaeruankou",
+    "fish": "oomonkaeruankou",
     "spot": "osezaki",
     "date": "2026-10-22",
     "sourceUrl": "https://diving-kz-marine.com/6833/",
     "sourceName": "ケイズマリン"
   },
   {
-    "fish": "sakatazame",
+    "fish": "hirame",
     "spot": "osezaki",
     "date": "2026-05-10",
     "sourceUrl": "https://blog.terrys.jp/2026/05/46961/",
     "sourceName": "ダイブテリーズ"
   },
   {
-    "fish": "mongaradooshi",
+    "fish": "hirataei",
     "spot": "osezaki",
     "date": "2026-05-10",
     "sourceUrl": "https://blog.terrys.jp/2026/05/46961/",
@@ -183,21 +3144,21 @@
     "sourceName": "ダイブテリーズ"
   },
   {
-    "fish": "hirataei",
+    "fish": "mongaradooshi",
     "spot": "osezaki",
     "date": "2026-05-10",
     "sourceUrl": "https://blog.terrys.jp/2026/05/46961/",
     "sourceName": "ダイブテリーズ"
   },
   {
-    "fish": "hirame",
+    "fish": "sakatazame",
     "spot": "osezaki",
     "date": "2026-05-10",
     "sourceUrl": "https://blog.terrys.jp/2026/05/46961/",
     "sourceName": "ダイブテリーズ"
   },
   {
-    "fish": "tengunootoshigo",
+    "fish": "benikaeruankou",
     "spot": "osezaki",
     "point": "wannai",
     "date": "2026-03-12",
@@ -205,7 +3166,7 @@
     "sourceName": "ケイズマリン"
   },
   {
-    "fish": "benikaeruankou",
+    "fish": "tengunootoshigo",
     "spot": "osezaki",
     "point": "wannai",
     "date": "2026-03-12",
