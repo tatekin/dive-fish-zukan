@@ -3,6 +3,7 @@
 // ショップのログから「魚名・日付・スポット・出典URL」だけを記録します。
 import { readFileSync, writeFileSync } from 'node:fs';
 import { validate } from '../src/lib/schema.mjs';
+import { compareSightings } from './fetch/lib.mjs';
 
 const path = (n) => new URL(`../src/data/${n}.json`, import.meta.url);
 const load = (n) => JSON.parse(readFileSync(path(n), 'utf8'));
@@ -22,6 +23,6 @@ if (errors.length) {
   for (const e of errors) console.error(`  - ${e}`);
   process.exit(1);
 }
-next.sort((a, b) => a.date.localeCompare(b.date) || a.spot.localeCompare(b.spot) || a.fish.localeCompare(b.fish));
+next.sort(compareSightings);
 writeFileSync(path('sightings'), JSON.stringify(next, null, 2) + '\n');
 console.log('追加しました:', record);
