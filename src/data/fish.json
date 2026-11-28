@@ -118,5 +118,196 @@
     "id": "mongaradooshi",
     "name": "モンガラドオシ",
     "family": "ウミヘビ科"
+  },
+  {
+    "id": "kamisoriuo",
+    "name": "カミソリウオ",
+    "scientificName": "Solenostomus cyanopterus",
+    "family": "カミソリウオ科"
+  },
+  {
+    "id": "shirobuchihata",
+    "name": "シロブチハタ",
+    "scientificName": "Epinephelus maculatus",
+    "family": "ハタ科"
+  },
+  {
+    "id": "maaji",
+    "name": "マアジ",
+    "scientificName": "Trachurus japonicus",
+    "family": "アジ科"
+  },
+  {
+    "id": "mihonohagoromohaze",
+    "name": "ミホノハゴロモハゼ",
+    "family": "ハゼ科"
+  },
+  {
+    "id": "ittenakatachi",
+    "name": "イッテンアカタチ",
+    "scientificName": "Acanthocepola limbata",
+    "family": "アカタチ科"
+  },
+  {
+    "id": "akatachi",
+    "name": "アカタチ",
+    "scientificName": "Acanthocepola krusensternii",
+    "family": "アカタチ科"
+  },
+  {
+    "id": "hirenaganejirinbou",
+    "name": "ヒレナガネジリンボウ",
+    "scientificName": "Stonogobiops nematodes",
+    "family": "ハゼ科"
+  },
+  {
+    "id": "ibaratatsu",
+    "name": "イバラタツ",
+    "scientificName": "Hippocampus histrix",
+    "family": "ヨウジウオ科"
+  },
+  {
+    "id": "hachijoutatsu",
+    "name": "ハチジョウタツ",
+    "scientificName": "Hippocampus sindonis",
+    "family": "ヨウジウオ科"
+  },
+  {
+    "id": "ooumiuma",
+    "name": "オオウミウマ",
+    "scientificName": "Hippocampus kelloggi",
+    "family": "ヨウジウオ科"
+  },
+  {
+    "id": "garasuhaze",
+    "name": "ガラスハゼ",
+    "scientificName": "Bryaninops yongei",
+    "family": "ハゼ科"
+  },
+  {
+    "id": "sasahaze",
+    "name": "ササハゼ",
+    "family": "ハゼ科"
+  },
+  {
+    "id": "shigehaze",
+    "name": "シゲハゼ",
+    "family": "ハゼ科"
+  },
+  {
+    "id": "akahachihaze",
+    "name": "アカハチハゼ",
+    "scientificName": "Valenciennea strigata",
+    "family": "ハゼ科"
+  },
+  {
+    "id": "akebonohaze",
+    "name": "アケボノハゼ",
+    "scientificName": "Nemateleotris decora",
+    "family": "クロユリハゼ科"
+  },
+  {
+    "id": "matsukasauo",
+    "name": "マツカサウオ",
+    "scientificName": "Monocentris japonica",
+    "family": "マツカサウオ科"
+  },
+  {
+    "id": "tatejimakinchakudai",
+    "name": "タテジマキンチャクダイ",
+    "scientificName": "Pomacanthus imperator",
+    "family": "キンチャクダイ科"
+  },
+  {
+    "id": "matoudai",
+    "name": "マトウダイ",
+    "scientificName": "Zeus faber",
+    "family": "マトウダイ科"
+  },
+  {
+    "id": "sujihanadai",
+    "name": "スジハナダイ",
+    "scientificName": "Pseudanthias fasciatus",
+    "family": "ハタ科"
+  },
+  {
+    "id": "mikazukitsubameuo",
+    "name": "ミカヅキツバメウオ",
+    "scientificName": "Platax boersii",
+    "family": "マンジュウダイ科"
+  },
+  {
+    "id": "akianago",
+    "name": "アキアナゴ",
+    "family": "アナゴ科"
+  },
+  {
+    "id": "futasujitamagashira",
+    "name": "フタスジタマガシラ",
+    "scientificName": "Scolopsis bilineata",
+    "family": "イトヨリダイ科"
+  },
+  {
+    "id": "mijinbenihaze",
+    "name": "ミジンベニハゼ",
+    "scientificName": "Lubricogobius exiguus",
+    "family": "ハゼ科"
+  },
+  {
+    "id": "hotarubionihaze",
+    "name": "ホタルビオニハゼ",
+    "family": "ハゼ科"
+  },
+  {
+    "id": "nigemizuchinanago",
+    "name": "ニゲミズチンアナゴ",
+    "family": "アナゴ科"
+  },
+  {
+    "id": "chinanago",
+    "name": "チンアナゴ",
+    "scientificName": "Heteroconger hassi",
+    "family": "アナゴ科"
+  },
+  {
+    "id": "miyaketeguri",
+    "name": "ミヤケテグリ",
+    "scientificName": "Synchiropus moyeri",
+    "family": "ネズッポ科"
+  },
+  {
+    "id": "hatatatehaze",
+    "name": "ハタタテハゼ",
+    "scientificName": "Nemateleotris magnifica",
+    "family": "クロユリハゼ科"
+  },
+  {
+    "id": "kanmuribera",
+    "name": "カンムリベラ",
+    "scientificName": "Coris aygula",
+    "family": "ベラ科"
+  },
+  {
+    "id": "umitengu",
+    "name": "ウミテング",
+    "family": "ウミテング科"
+  },
+  {
+    "id": "hanaminokasago",
+    "name": "ハナミノカサゴ",
+    "scientificName": "Pterois volitans",
+    "family": "フサカサゴ科"
+  },
+  {
+    "id": "minamihakofugu",
+    "name": "ミナミハコフグ",
+    "scientificName": "Ostracion cubicus",
+    "family": "ハコフグ科"
+  },
+  {
+    "id": "nekozame",
+    "name": "ネコザメ",
+    "scientificName": "Heterodontus japonicus",
+    "family": "ネコザメ科"
   }
 ]

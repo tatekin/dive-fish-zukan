@@ -77,3 +77,13 @@ npm run add-sighting -- <魚id> <スポットid[:ポイントid]> <YYYY-MM-DD> <
 # 例
 npm run add-sighting -- hanatatsu osezaki:wannai 2026-05-17 https://example.com/log/123 "○○ダイビング"
 ```
+
+### 毎日の自動取得
+
+GitHub Actions（`.github/workflows/fetch-sightings.yml`）が毎日 日本時間 21:30 に、大瀬崎のショップのログから魚名・日付・出典URLだけを取り出して記録を追加します。新しい記録があれば `claude/auto-sightings` ブランチでPRを作り、CIが通ると自動でマージ・デプロイされます。
+
+```sh
+npm run fetch-sightings -- --days 7 --dry-run   # 書き込まずに結果だけ見る（ショップのサイトに取得しに行きます）
+```
+
+`fish.json` にない名前は記録せず、`scripts/fetch/unmatched-names.json` に名前と見た日付だけを残します。魚なら `fish.json` に追加、ログでの別表記なら `scripts/fetch/names.json` の `aliases` に、魚でないものは `ignore` に入れてください。

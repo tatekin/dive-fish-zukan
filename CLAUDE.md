@@ -60,6 +60,18 @@
 - `npm run validate`：データ検証だけ
 - `npm run build`：データ検証＋ビルド（`dist/`）
 - `npm run add-sighting -- <魚id> <スポットid[:ポイントid]> <YYYY-MM-DD> <出典URL> [ショップ名]`：目撃記録を1件追加
+- `npm run fetch-sightings -- [--days 7] [--dry-run] [--report out.md]`：ショップのログを取得して記録を追加（ふだんは GitHub Actions が毎日実行）
+
+## 毎日の自動取得（`fetch-sightings.yml`）
+
+- 毎日 日本時間 21:30 に `scripts/fetch-sightings.mjs` を実行し、過去4日分のログから記録を追加する。手動実行（workflow_dispatch）では日数を指定できる
+- 出典：COCOMO OSEZAKI「海洋情報」（`p4-1.html?id=NNNN`、1日1ページ）、マリンハウス レイアロハ（RSS `blog-feed.xml`、カテゴリ「大瀬崎海洋速報」のタイトルだけ見る）、ダイビングサービス シーキング「海況情報」（`seainfo_detail.php?D=YYYYMMDD`）
+- 取得のたびに robots.txt を確認し、禁止されていれば取得しない。同じサイトへは1.5秒以上あけ、UA で連絡先（サイトURL）を名乗る
+- 名前は `fish.json` の標準和名と `scripts/fetch/names.json` の `aliases`（ログでの表記 → 魚id）で照合する。カタカナの連なり全体が一致したときだけ記録する。「？」「っぽい」「見つからず」などを含む部分は記録しない
+- 照合できなかった名前は `scripts/fetch/unmatched-names.json` に名前と日付だけ残す。魚なら `fish.json` に追加し、魚でなければ `names.json` の `ignore` / `ignoreSuffixes` に入れる（追加したあとで `--days` を増やして手動実行すると、さかのぼって記録される）
+- 魚ごとのポイントはログに書かれていないので、自動取得の記録には `point` を付けない
+- 新しい記録があれば `claude/auto-sightings` ブランチを作り直してPRを作り、`ci.yml` を workflow_dispatch で起動する（GITHUB_TOKEN のPRでは pull_request のCIが動かないため）。CIが通れば `merge-and-deploy` がマージ・デプロイする
+- パーサーは `scripts/fetch/lib.mjs`、テストは `test/fetch.test.ts`。ショップのページの形が変わると「日付が読めません」で止まるので、ジョブの概要を見て直す
 
 ## ショップのログから記録を追加するとき
 
@@ -88,8 +100,10 @@
 
 ## 次にやること
 
-- 出典を増やす。現在の出典と候補は次のとおり（2026-11-26 時点で robots.txt に禁止なし）
-  - 使用中：マリンハウス レイアロハ「大瀬崎海洋速報」（1記事1種で日付入り。いちばん扱いやすい）、ダイブテリーズ、ケイズマリン
-  - 候補：サザナミマリン（大瀬崎ログのカテゴリあり。記事ごとに生物名を確認する必要あり）
-  - 見送り：サンライズ大瀬の海洋情報（毎日上書きされ、日ごとのURLがないため出典リンクにできない。ポイント名の参考にはする）
+- 出典を増やす。現在の出典と候補は次のとおり（2026-11-28 時点で robots.txt に禁止なし。COCOMO・シーキングは robots.txt 自体がない）
+  - 自動取得：COCOMO OSEZAKI、マリンハウス レイアロハ、ダイビングサービス シーキング（上の「毎日の自動取得」）
+  - 手動で追加済み：ダイブテリーズ、ケイズマリン（魚名が本文や写真の説明にしかなく、自動抽出は誤りやすい）
+  - 候補：サザナミマリン（ツアーごとのログ。月1〜2回）
+  - 見送り：サンライズ大瀬の海洋情報（日ごとのURLがない）、大瀬館（日ごとのリンクがInstagram）、オスパー（更新停止）、海童・はごろも（ログがSNSだけ）。Instagram・Facebookは規約で自動収集禁止
+- `unmatched-names.json` にたまった名前を見て、魚を `fish.json` に足す
 - 大瀬崎で手応えがあれば、ほかのスポットを追加する
