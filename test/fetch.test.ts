@@ -20,6 +20,9 @@ describe('名前の抽出', () => {
     expect(r.fish.sort()).toEqual(['hanatatsu', 'kumadorikaeruankou']);
     expect(r.unknown.sort()).toEqual(['イバラタツ', 'ブリモドキ']);
   });
+  it('後ろに付いた「ペア」は外す', () => {
+    expect(extractNames('ハナタツペア', dict).fish).toEqual(['hanatatsu']);
+  });
   it('「ブリ」が「ブリモドキ」に一致しない', () => {
     expect(extractNames('ブリモドキ', dict).fish).toEqual([]);
   });

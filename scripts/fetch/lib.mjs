@@ -80,7 +80,8 @@ export function extractNames(text, dict, { collectUnknown = true } = {}) {
     for (const run of token.match(KATAKANA_RUN) ?? []) {
       const parts = dict.byName.has(run) ? [run] : run.split('・').filter(Boolean);
       for (const p of parts) {
-        const name = p.replace(/^ー+|ー+$/g, '');
+        // 「〇〇ペア」のように後ろに付いた一般語は外す
+        const name = p.replace(/^ー+|ー+$/g, '').replace(/(ペアー?|カップル|ベビー)$/, '');
         if (name.length < 2) continue;
         const id = dict.byName.get(name);
         if (id) fishIds.add(id);

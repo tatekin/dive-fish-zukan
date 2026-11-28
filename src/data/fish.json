@@ -246,5 +246,68 @@
     "name": "フタスジタマガシラ",
     "scientificName": "Scolopsis bilineata",
     "family": "イトヨリダイ科"
+  },
+  {
+    "id": "mijinbenihaze",
+    "name": "ミジンベニハゼ",
+    "scientificName": "Lubricogobius exiguus",
+    "family": "ハゼ科"
+  },
+  {
+    "id": "hotarubionihaze",
+    "name": "ホタルビオニハゼ",
+    "family": "ハゼ科"
+  },
+  {
+    "id": "nigemizuchinanago",
+    "name": "ニゲミズチンアナゴ",
+    "family": "アナゴ科"
+  },
+  {
+    "id": "chinanago",
+    "name": "チンアナゴ",
+    "scientificName": "Heteroconger hassi",
+    "family": "アナゴ科"
+  },
+  {
+    "id": "miyaketeguri",
+    "name": "ミヤケテグリ",
+    "scientificName": "Synchiropus moyeri",
+    "family": "ネズッポ科"
+  },
+  {
+    "id": "hatatatehaze",
+    "name": "ハタタテハゼ",
+    "scientificName": "Nemateleotris magnifica",
+    "family": "クロユリハゼ科"
+  },
+  {
+    "id": "kanmuribera",
+    "name": "カンムリベラ",
+    "scientificName": "Coris aygula",
+    "family": "ベラ科"
+  },
+  {
+    "id": "umitengu",
+    "name": "ウミテング",
+    "family": "ウミテング科"
+  },
+  {
+    "id": "hanaminokasago",
+    "name": "ハナミノカサゴ",
+    "scientificName": "Pterois volitans",
+    "family": "フサカサゴ科"
+  },
+  {
+    "id": "minamihakofugu",
+    "name": "ミナミハコフグ",
+    "scientificName": "Ostracion cubicus",
+    "family": "ハコフグ科"
+  },
+  {
+    "id": "nekozame",
+    "name": "ネコザメ",
+    "scientificName": "Heterodontus japonicus",
+    "family": "ネコザメ科"
   }
 ]
